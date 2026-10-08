@@ -1,0 +1,15 @@
+# Harness (CUDA torch assumed from the base image; tested on torch 2.12, Python 3.12)
+numpy
+pandas
+matplotlib
+scikit-learn
+gdown
+nbformat
+nbclient
+# Reference-repo venv extras (see README step 2)
+yacs
+wandb
+einops
+local-attention
+reformer-pytorch
+tqdm

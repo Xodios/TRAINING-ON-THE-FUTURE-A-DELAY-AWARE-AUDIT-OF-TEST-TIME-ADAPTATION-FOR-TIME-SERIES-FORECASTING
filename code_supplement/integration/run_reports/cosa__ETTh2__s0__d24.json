@@ -1,0 +1,42 @@
+{
+  "model": "SimpleAdapter",
+  "time_statistics": {
+    "adapter_operations": {
+      "context_generation_ms": 0.083,
+      "adapter_forward_pass_ms": 0.887,
+      "final_prediction_ms": 0.783,
+      "total_adapter_operation_ms": 1.753
+    },
+    "adaptation_training": {
+      "loss_computation_ms": 0.707,
+      "backward_update_ms": 3.495,
+      "per_adaptation_step_ms": 5.462,
+      "total_per_batch_ms": 27.18,
+      "adaptation_steps": 20,
+      "pogt": true,
+      "full_gt_adaptation_ms": 27.111,
+      "full_gt_adaptation_count": 485,
+      "partial_gt_adaptation_ms": 27.248,
+      "partial_gt_adaptation_count": 487,
+      "pending_at_teardown": 2
+    },
+    "other_operations": {
+      "base_model_prediction_ms": 5.706,
+      "buffer_update_ms": 0.059,
+      "metric_computation_ms": 0.215
+    },
+    "overall_stats": {
+      "total_time_seconds": 31.06,
+      "total_adaptations": 4835,
+      "avg_time_per_adaptation_ms": 27.18,
+      "throughput_samples_per_sec": 391.8
+    }
+  },
+  "final_results": {
+    "adaptation_count": 4835,
+    "test_mse": 1.529248595237732
+  },
+  "parameters": {
+    "total_params": 5047
+  }
+}

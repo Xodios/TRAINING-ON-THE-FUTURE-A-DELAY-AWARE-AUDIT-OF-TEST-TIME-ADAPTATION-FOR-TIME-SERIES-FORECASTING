@@ -1,0 +1,110 @@
+[
+  {
+    "run": "tafas_tuned__ETTh2__s0__d24",
+    "test_mse": 1.2426807880401611,
+    "adaptation_steps": null,
+    "full_gt_adaptation_count": null,
+    "partial_gt_adaptation_count": null,
+    "total_params": 9914,
+    "adaptation_count": 618
+  },
+  {
+    "run": "tafas_tuned__ETTh2__s0__d48",
+    "test_mse": 1.2409660816192627,
+    "adaptation_steps": null,
+    "full_gt_adaptation_count": null,
+    "partial_gt_adaptation_count": null,
+    "total_params": 9914,
+    "adaptation_count": 617
+  },
+  {
+    "run": "tafas_tuned__ETTh2__s0__d96",
+    "test_mse": 1.23869788646698,
+    "adaptation_steps": null,
+    "full_gt_adaptation_count": null,
+    "partial_gt_adaptation_count": null,
+    "total_params": 9914,
+    "adaptation_count": 615
+  },
+  {
+    "run": "tafas_tuned__ETTm1__s0__d24",
+    "test_mse": 1.4655674695968628,
+    "adaptation_steps": null,
+    "full_gt_adaptation_count": null,
+    "partial_gt_adaptation_count": null,
+    "total_params": 9914,
+    "adaptation_count": 1022
+  },
+  {
+    "run": "tafas_tuned__ETTm1__s0__d48",
+    "test_mse": 1.4654772281646729,
+    "adaptation_steps": null,
+    "full_gt_adaptation_count": null,
+    "partial_gt_adaptation_count": null,
+    "total_params": 9914,
+    "adaptation_count": 1022
+  },
+  {
+    "run": "tafas_tuned__ETTm1__s0__d96",
+    "test_mse": 1.465558409690857,
+    "adaptation_steps": null,
+    "full_gt_adaptation_count": null,
+    "partial_gt_adaptation_count": null,
+    "total_params": 9914,
+    "adaptation_count": 1022
+  },
+  {
+    "run": "cosa_tuned__ETTh2__s0__d24",
+    "test_mse": 1.235613226890564,
+    "adaptation_steps": 3,
+    "full_gt_adaptation_count": 308,
+    "partial_gt_adaptation_count": 310,
+    "total_params": 5887,
+    "adaptation_count": 1854
+  },
+  {
+    "run": "cosa_tuned__ETTh2__s0__d48",
+    "test_mse": 1.2359391450881958,
+    "adaptation_steps": 3,
+    "full_gt_adaptation_count": 307,
+    "partial_gt_adaptation_count": 79,
+    "total_params": 5887,
+    "adaptation_count": 1158
+  },
+  {
+    "run": "cosa_tuned__ETTh2__s0__d96",
+    "test_mse": 1.2352615594863892,
+    "adaptation_steps": 3,
+    "full_gt_adaptation_count": 305,
+    "partial_gt_adaptation_count": 60,
+    "total_params": 5887,
+    "adaptation_count": 1095
+  },
+  {
+    "run": "cosa_tuned__ETTm1__s0__d24",
+    "test_mse": 1.1838558912277222,
+    "adaptation_steps": 3,
+    "full_gt_adaptation_count": 510,
+    "partial_gt_adaptation_count": 512,
+    "total_params": 5887,
+    "adaptation_count": 3066
+  },
+  {
+    "run": "cosa_tuned__ETTm1__s0__d48",
+    "test_mse": 1.2115979194641113,
+    "adaptation_steps": 3,
+    "full_gt_adaptation_count": 510,
+    "partial_gt_adaptation_count": 508,
+    "total_params": 5887,
+    "adaptation_count": 3054
+  },
+  {
+    "run": "cosa_tuned__ETTm1__s0__d96",
+    "test_mse": 1.2563294172286987,
+    "adaptation_steps": 3,
+    "full_gt_adaptation_count": 510,
+    "partial_gt_adaptation_count": 496,
+    "total_params": 5887,
+    "adaptation_count": 3018
+  }
+]

@@ -1,0 +1,16 @@
+family,method,d=24,d=48,d=96
+external_tta,cosa,0.4121,0.4136,0.4125
+external_tta,frozen,0.4134,,
+external_tta,petsa,0.4603,0.4557,0.4553
+external_tta,tafas,0.4115,0.4167,0.4162
+frozen,frozen,0.4134,0.4134,0.4134
+gd,gd_feat_sgd0.0001,0.4119,0.41,0.4091
+gd,gd_feat_sgd0.001,4.339358760381843e+29,7.16604143873718e+28,3.259816715454195e+29
+gd,gd_feat_sgddec0.001,0.4257,0.4214,0.4199
+naive,naive,2.5742,2.5742,2.5742
+naive,snaive,0.7831,0.7831,0.7831
+rls,rls_bank_med,0.4096,0.4071,0.406
+rls,rls_feat,0.4112,0.4082,0.407
+rls_ablation,rls_bank_med_noclip,0.4096,0.4071,0.406
+rls_ablation,rls_feat_noclip,43648.8594,24716.7559,50662.3828
+simple,bias_ema,0.4528,0.4605,0.4607

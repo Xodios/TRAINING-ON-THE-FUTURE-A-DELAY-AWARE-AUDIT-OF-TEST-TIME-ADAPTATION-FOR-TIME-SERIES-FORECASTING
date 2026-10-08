@@ -1,0 +1,95 @@
+{
+  "exp_root": "rls_delay_tta",
+  "datasets": [
+    "ETTh2",
+    "ETTm1",
+    "weather",
+    "electricity",
+    "traffic"
+  ],
+  "lookback": 96,
+  "horizon": 24,
+  "train_frac": 0.25,
+  "val_frac": 0.05,
+  "delays": [
+    1,
+    24,
+    48,
+    96
+  ],
+  "online_cap": 0,
+  "ma_kernel": 25,
+  "ridge_alphas": [
+    0.001,
+    0.1,
+    10.0
+  ],
+  "rls_lambda": 0.999,
+  "rls_lambda_sweep": [
+    0.99,
+    0.995,
+    0.999,
+    1.0
+  ],
+  "rls_p0": 10.0,
+  "rls_trace_clip": 10.0,
+  "nlms_mu": 0.1,
+  "nlms_leak": 0.001,
+  "bias_beta": 0.05,
+  "gd_lrs": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1
+  ],
+  "adam_lr": 0.01,
+  "gd_decay_lrs": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "gd_decay_tau": 1000.0,
+  "nlms_mus": [
+    0.02,
+    0.05,
+    0.3
+  ],
+  "bank_lams": [
+    1.0,
+    0.9999,
+    0.9995,
+    0.999,
+    0.995,
+    0.99
+  ],
+  "bank_gamma": 0.99,
+  "rls_lambda_sweep_ext": [
+    0.9995,
+    0.9999
+  ],
+  "boot_B": 500,
+  "boot_block_mult": 2,
+  "elf_datasets": [
+    "ETTh2",
+    "ETTm1",
+    "weather"
+  ],
+  "elf_lambda": 1.0,
+  "elf_weighter_beta": 0.99,
+  "wide_channels": 50,
+  "pt_seeds": [
+    0,
+    1,
+    2
+  ],
+  "pt_epochs": 20,
+  "pt_d_model": 128,
+  "pt_layers": 3,
+  "pt_heads": 8,
+  "pt_patch": 16,
+  "pt_stride": 8,
+  "pt_lr": 0.0001,
+  "pt_bs": 128,
+  "seed": 0,
+  "run_patchtst": true
+}

@@ -1,0 +1,45 @@
+--- tta/tafas.py ---
+  [skip] already applied in tta/tafas.py
+  [skip] already applied in tta/tafas.py
+  [skip] already applied in tta/tafas.py
+  [skip] already applied in tta/tafas.py
+--- tta/cosa.py ---
+  [skip] already applied in tta/cosa.py
+  [skip] already applied in tta/cosa.py
+  [skip] already applied in tta/cosa.py
+  [skip] already applied in tta/cosa.py
+--- tta/petsa.py ---
+  [skip] already applied in tta/petsa.py
+  [skip] already applied in tta/petsa.py
+  [skip] already applied in tta/petsa.py
+  [skip] already applied in tta/petsa.py
+--- tta/dynatta.py ---
+  [skip] already applied in tta/dynatta.py
+  [warn] anchor not found in tta/dynatta.py: 'self.pred_step_end_dict[batch_idx] = self.cur_step + self.cf'
+  [skip] already applied in tta/dynatta.py
+  [skip] already applied in tta/dynatta.py
+--- tta/tafas.py partial-GT lag ---
+  [skip] already applied in tta/tafas.py
+--- tta/cosa.py partial-GT lag ---
+  [skip] already applied in tta/cosa.py
+  [skip] already applied in tta/cosa.py
+--- datasets/build.py pandas>=2 compat (deprecated positional arg in Series.apply) ---
+  [skip] already applied in datasets/build.py
+  [skip] already applied in datasets/build.py
+  [skip] already applied in datasets/build.py
+  [skip] already applied in datasets/build.py
+  [warn] anchor not found in datasets/build.py: 'df_stamp.date.apply(lambda row: row.minute, 1)'
+--- autograd compat: out-of-place NST normalization (in-place div breaks input-graph TTA, e.g. DynaTTA) ---
+  [skip] already applied in models/forecast.py
+  [skip] already applied in models/normalize.py
+  [skip] already applied in models/PatchTST.py
+  [skip] already applied in models/iTransformer.py
+--- PETSA/DynaTTA partial-GT lag (v8: puts both methods on the delay axis) ---
+  [skip] already applied in tta/petsa.py
+  [skip] already applied in tta/petsa.py
+  [skip] already applied in tta/dynatta.py
+  [skip] already applied in tta/dynatta.py
+  [skip] already applied in tta/dynatta.py
+  [skip] already applied in tta/dynatta.py
+NOTE: with the v8 section applied, PETSA and DynaTTA can be run at LABEL_LAG>0 as well.
+done.

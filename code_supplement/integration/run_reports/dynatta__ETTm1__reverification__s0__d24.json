@@ -1,0 +1,41 @@
+{
+  "model": "DynaTTA",
+  "time_statistics": {
+    "dynatta_operations": {
+      "metrics_collection_ms": 11.404,
+      "buffer_update_ms": 0,
+      "adaptation_rate_update_ms": 0
+    },
+    "adaptation_training": {
+      "full_adaptation_ms": 138.609,
+      "partial_adaptation_ms": 58.921,
+      "prediction_adjustment_ms": 6.096
+    },
+    "other_operations": {
+      "metric_computation_ms": 0.202
+    },
+    "overall_stats": {
+      "total_time_seconds": 421.35,
+      "total_adaptations": 3900,
+      "avg_time_per_adaptation_ms": 138.609,
+      "throughput_samples_per_sec": 115.7
+    }
+  },
+  "dynatta_metrics": {
+    "mse_buffer_size": 256,
+    "rtab_size": 360,
+    "rdb_size": 100,
+    "final_adaptation_rate": 0.000617899463769377,
+    "alpha_min": 0.0001,
+    "alpha_max": 0.001,
+    "warmup_steps": 24,
+    "adaptation_rate_history_length": 1951
+  },
+  "final_results": {
+    "adaptation_count": 3900,
+    "test_mse": 0.6191409230232239
+  },
+  "parameters": {
+    "total_params": 11196
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "model": "PETSA",
+  "time_statistics": {
+    "full_adaptation": {
+      "lora_calibration_ms": 0.193,
+      "forward_pass_ms": 4.027,
+      "complex_loss_computation_ms": 0.729,
+      "backward_update_ms": 1.266,
+      "per_step_total_ms": 6.302,
+      "total_per_batch_ms": 6.338,
+      "full_adaptation_count": 1
+    },
+    "partial_adaptation": {
+      "lora_calibration_ms": 0.2,
+      "forward_pass_ms": 4.433,
+      "complex_loss_computation_ms": 0.862,
+      "backward_update_ms": 1.492,
+      "per_step_total_ms": 7.057,
+      "total_per_batch_ms": 7.1
+    },
+    "loss_breakdown": {
+      "fft_computation_ms": 0.477,
+      "correlation_ms": 0.398,
+      "kl_divergence_ms": 0.318,
+      "huber_loss_ms": 0.239,
+      "mean_loss_ms": 0.159,
+      "note": "Estimated breakdown percentages"
+    },
+    "other_operations": {
+      "period_calculation_ms": 0.274,
+      "prediction_adjustment_ms": 5.056,
+      "metric_computation_ms": 0.176,
+      "total_batch_processing_ms": 19.006
+    },
+    "comparison": {
+      "full_adaptation_ms_per_step": 6.302,
+      "partial_adaptation_ms_per_step": 7.057,
+      "ratio_full_to_partial": 0.89,
+      "lora_efficiency": {
+        "full_lora_ms": 0.193,
+        "partial_lora_ms": 0.2,
+        "lora_overhead_percentage": 2.9
+      }
+    },
+    "overall_stats": {
+      "total_time_seconds": 10.52,
+      "total_adaptations": 1022,
+      "number_of_batches": 512,
+      "total_adaptation_time_seconds": 6.83,
+      "adaptation_time_percentage": 64.9,
+      "non_adaptation_time_seconds": 3.69,
+      "throughput_samples_per_sec": 4635.4,
+      "avg_time_per_adaptation_ms": 6.68,
+      "lora_efficiency": {
+        "parameters": 3962,
+        "rank": 16,
+        "lora_flops_per_ms": 10085.8
+      }
+    }
+  },
+  "final_results": {
+    "adaptation_count": 1022,
+    "test_mse": 1.5974363088607788
+  },
+  "parameters": {
+    "total_params": 3962
+  }
+}

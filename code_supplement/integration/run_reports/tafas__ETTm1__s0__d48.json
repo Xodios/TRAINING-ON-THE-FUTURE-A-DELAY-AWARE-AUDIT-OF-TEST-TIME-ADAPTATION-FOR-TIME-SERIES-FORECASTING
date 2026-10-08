@@ -1,0 +1,42 @@
+{
+  "model": "TAFAS",
+  "time_statistics": {
+    "full_adaptation": {
+      "calibration_ms": 0.151,
+      "forward_pass_ms": 4.836,
+      "loss_computation_ms": 0.045,
+      "backward_update_ms": 0.684,
+      "per_step_total_ms": 5.847,
+      "total_per_batch_ms": 5.867,
+      "full_adaptation_count": 1
+    },
+    "partial_adaptation": {
+      "calibration_ms": 0.157,
+      "forward_pass_ms": 4.607,
+      "loss_computation_ms": 0.056,
+      "backward_update_ms": 0.774,
+      "per_step_total_ms": 5.452,
+      "total_per_batch_ms": 5.486
+    },
+    "other_operations": {
+      "period_calculation_ms": 0.294,
+      "prediction_adjustment_ms": 5.304,
+      "metric_computation_ms": 0.2,
+      "total_batch_processing_ms": 17.217
+    },
+    "overall_stats": {
+      "total_time_seconds": 9.58,
+      "total_adaptations": 1022,
+      "number_of_batches": 512,
+      "avg_time_per_adaptation_ms": 5.633,
+      "throughput_samples_per_sec": 5091.2
+    }
+  },
+  "final_results": {
+    "adaptation_count": 1022,
+    "test_mse": 1.464858889579773
+  },
+  "parameters": {
+    "total_params": 9914
+  }
+}

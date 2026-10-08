@@ -1,0 +1,17 @@
+family,method,d=24,d=48,d=96
+external_tta,cosa,5.5247,5.2068,5.2832
+external_tta,dynatta,5.4564,5.2331,5.2348
+external_tta,frozen,4.755,,
+external_tta,petsa,6.6216,6.5833,6.5949
+external_tta,tafas,4.8071,4.7469,4.7401
+frozen,frozen,4.755,4.755,4.755
+gd,gd_feat_sgd0.0001,inf,inf,inf
+gd,gd_feat_sgd0.001,inf,inf,inf
+gd,gd_feat_sgddec0.001,inf,inf,inf
+naive,naive,71.8355,71.8355,71.8355
+naive,snaive,6.4559,6.4559,6.4559
+rls,rls_bank_med,4.7584,4.7616,5.2326
+rls,rls_feat,4.7768,4.7799,5.2601
+rls_ablation,rls_bank_med_noclip,4.7661,4.7647,5.2355
+rls_ablation,rls_feat_noclip,60863116.0,44299536.0,86447592.0
+simple,bias_ema,5.58,5.2507,5.7192
